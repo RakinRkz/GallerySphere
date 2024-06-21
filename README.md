@@ -59,3 +59,6 @@ Welcome to GallerySphere, a dynamic platform designed to showcase and share your
 ## Usage
 
 After starting the server, you can begin uploading photos by navigating to the upload section of the website. Use the intuitive interface to add titles, descriptions, and categorize your photos. Once uploaded, your photos will be displayed in a beautiful gallery format, ready to be shared with the world.
+
+## Future Works
+Alike many top of the line photo apps that you see and use in Android or IOS devices, AI features that help you to organize your photos based on faces, location, scenary etc. can be added. 
