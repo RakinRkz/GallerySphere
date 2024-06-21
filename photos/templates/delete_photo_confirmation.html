@@ -1,0 +1,7 @@
+{% extends "base_generic.html" %}
+
+{% block content %}
+  <h2>Are you sure you want to delete "{{ photo.title }}"?</h2>
+  <a href="{% url 'delete-photo' photo.id %}" method="post">Yes, delete</a>
+  <a href="{% url 'photo-gallery' %}">Cancel</a>
+{% endblock %}

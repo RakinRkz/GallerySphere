@@ -1,0 +1,13 @@
+{% extends "base_generic.html" %}
+
+{% block content %}
+  <h2>Photo Gallery</h2>
+  {% for photo in photos %}
+    <div class="photo">
+      <img src="{{ photo.image.url }}" alt="{{ photo.title }}">
+      <h3>{{ photo.title }}</h3>
+      <p>{{ photo.description }}</p>
+      <a href="{% url 'delete-photo' photo.id %}" method="post">Delete</a>
+    </div>
+  {% endfor %}
+{% endblock %}
